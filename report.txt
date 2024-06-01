@@ -1,0 +1,15 @@
+Log Analysis Report
+====================
+Total Logs: 4
+Error Logs: 2
+Failed Login Attempts: 2
+
+Detailed Error Logs:
+          timestamp log_level                     message
+2024-05-31 12:05:22     ERROR Failed login attempt: user2
+2024-05-31 12:15:30     ERROR Failed login attempt: user3
+
+Detailed Failed Login Attempts:
+          timestamp log_level                     message
+2024-05-31 12:05:22     ERROR Failed login attempt: user2
+2024-05-31 12:15:30     ERROR Failed login attempt: user3
